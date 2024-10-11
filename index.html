@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My News Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#" onclick="fetchNews('world')">World</a></li>
+            <li><a href="#" onclick="fetchNews('politics')">Politics</a></li>
+            <li><a href="#" onclick="fetchNews('business')">Business</a></li>
+            <li><a href="#" onclick="fetchNews('technology')">Technology</a></li>
+            <li><a href="#" onclick="fetchNews('sports')">Sports</a></li>
+            <li><a href="#" onclick="fetchNews('entertainment')">Entertainment</a></li>
+        </ul>
+    </nav>
+    <main id="news-container">
+        <!-- Articles will be loaded here -->
+    </main>
+    <footer>
+        <p>&copy; 2024 My News Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
